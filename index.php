@@ -1,0 +1,50 @@
+<?php 
+    include("includes/header.php");
+?>
+
+<div id="container-home">
+    
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-12">
+                <div class="">
+
+                    <h1 class="display-1">Bienvenido</h1>
+                    <p>Hacemos los datos fáciles de usar</p>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section  class="container mt-5">
+    <article class="row">
+        <div class="col-12">
+            <h2>Que Realizamos</h2>
+            <p>Contribuimos con su empresa para mejorar la toma de
+                decisiones a través de sus datos. </p>
+
+            <button type="button" class="btn btn-outline-primary rounded-0 p-3">
+                Más Información
+            </button>
+        </div>
+    </article>
+
+    <article>
+        <!-- carrusel de contenido -->
+    </article>
+    
+    <article>
+        <!-- Tecnologias que se utilizan -->
+    </article>
+
+
+</section>
+
+
+<?php 
+    include("includes/footer.php");
+?>
