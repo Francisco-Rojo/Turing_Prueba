@@ -35,6 +35,8 @@
 </div>
 </div>
 
+<div class="bar_color"></div>
+
 <div class="container-fluid">
     <img width="100%" src="./img/color-bar-w-blue-3010x50.png" alt="bar-color">
 </div>

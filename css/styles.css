@@ -31,8 +31,6 @@
     align-items: center;
 }
 
-
-
 /* The Modal (background) */
 .modal {
     color: black;
@@ -93,7 +91,6 @@
   .modal-body {
     padding: 2px 16px;
 }
-  
 footer {
     background-color: #002faf;
 }

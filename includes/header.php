@@ -13,7 +13,7 @@
 <header class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">  
     <div class="container">
-        <a class="navbar-brand" href="#"><h1>TURING-IA</h1></a>
+        <a class="navbar-brand" href="#"><h1 class="text-uppercase fw-light">TURING-IA</h1></a>
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
           <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>

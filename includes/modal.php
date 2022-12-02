@@ -3,13 +3,14 @@
     <!-- Modal content -->
     <div class="modal-content">
         <div class="modal-header">
-            <h2 class="fw-light text-uppercase ms-5">Turing-ia</h2>
+            <h2 style="visibility: hidden;">Turing-ia</h2>
             <span class="close">&times;</span>
         </div>
         <div class="modal-body">
             <div class="row p-4 d-flex justify-content-center align-items-center">
                 <div class="col-12 col-lg-6 p-5">
-                    <p class="display-5 text-center text-lg-start fw-light">
+                    <h2 class="display-3 text-uppercase">Turing-ia</h2>
+                    <p class="display-6 text-center text-lg-start fw-light">
                         Ponte en contacto con un especialista.
                     </p>
                     <p class="h5 text-center text-lg-start fw-light">
