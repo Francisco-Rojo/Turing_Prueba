@@ -37,8 +37,27 @@
         <!-- carrusel de contenido -->
     </article>
     
-    <article>
+    <article class="row text-center mt-3">
         <!-- Tecnologias que se utilizan -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Tecnologias que utilizamos</h2>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <img class="img-fluid" width="150px"  src="img/tecnoly-tableau.png" alt="tableu">
+        </div> 
+        <div cla ss="col-12">
+            <img class="img-fluid" width="150px"  src="img/salesforce.jpg" alt="salesforce">
+        </div> 
+        <div cla ss="col-12">
+            <img  class="img-fluid" width="150px" src="img/pmi2.png" alt="project managment">
+        </div> 
+        <div cla ss="col-12">
+            <img class="img-fluid" width="150px"  src="img/scrum.png" alt="scrum">
+        </div>
+
     </article>
 
 
