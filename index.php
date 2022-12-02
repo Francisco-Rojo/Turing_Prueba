@@ -1,10 +1,6 @@
 <?php 
     include("includes/header.php");
 ?>
-
-
-
-
 <div class="container_home">
     <div class="container_video">
         <video autoplay muted loop>
@@ -14,31 +10,32 @@
 
     <div class="container_home_content"">
         <div class=" container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center text-lg-start  fw-bolder display-3">Bienvenido</h1>
-                    <p class="h3 text-center text-lg-start fw-bolder ">Hacemos los datos <br>fáciles de usar</p>
-                </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center text-lg-start  fw-bolder display-3">Bienvenido</h1>
+                <p class="h3 text-center text-lg-start fw-bolder">Hacemos los datos <br>fáciles de usar</p>
             </div>
-            <div class="row mt-4">
-                <div class="col-12">
-                    <p class="h4 text-center text-lg-start ">Ponte en contacto con un especialiasta</p>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
-                        <button type="button" class="btn btn-outline-light rounded-0 ">
-                            Más Información
-                        </button>
-                    </div>
-
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <p class="h4 text-center text-lg-start ">Ponte en contacto con un especialiasta</p>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <button id="btnModal" type="button" class="btn btn-outline-light rounded-0 ">
+                        Más Información
+                    </button>
                 </div>
+
+                <?php 
+                    include("includes/modal.php");
+                ?>
+
             </div>
-
-
         </div>
     </div>
 </div>
+</div>
 
 <div class="container-fluid">
-
     <img width="100%" src="./img/color-bar-w-blue-3010x50.png" alt="bar-color">
 </div>
 
@@ -58,9 +55,6 @@
     <article>
         <!-- carrusel de contenido -->
     </article>
-
-
-    
 
     <article class="row text-center">
 
