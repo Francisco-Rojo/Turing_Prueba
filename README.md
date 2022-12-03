@@ -20,7 +20,7 @@ HTML, CSS Javascript, Bootstrap, PHP, Mysql.
         "CREATE DATABASE turing_ia_prueba"
 
     2.- Crear una tabla con el nombre "contact".
-        "CREATE TABLE MyGuests (
+        "CREATE TABLE contact (
             id INT(6) AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(200) NOT NULL,
             email VARCHAR(50) NOT NULL,
