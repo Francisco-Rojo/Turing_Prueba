@@ -10,6 +10,10 @@ HTML, CSS Javascript, Bootstrap, PHP, Mysql.
 
 
 ````
+    * Instalar Apache && Mysql (XAMPP)
+    * Dentro de la carpeta xampp/htdosc alojar proyecto
+
+
     Configuraciones en DB: 
 
     1.- Crear base de datos con el nombre "turing_ia_prueba".
