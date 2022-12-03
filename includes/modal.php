@@ -9,7 +9,7 @@
         <div class="modal-body">
             <div class="row p-4 d-flex justify-content-center align-items-center">
                 <div class="col-12 col-lg-6 p-5 mb-5">
-                    <h2 class="display-3 text-uppercase">Turing-ia</h2>
+                    <h2 class="display-3 text-uppercase text-center text-lg-start">Turing-ia</h2>
                     <p class="display-6 text-center text-lg-start fw-light">
                         Ponte en contacto con un especialista.
                     </p>
