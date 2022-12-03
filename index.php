@@ -1,6 +1,8 @@
 <?php 
     include("includes/header.php");
 ?>
+
+
 <div class="container_home">
     <div class="container_video">
         <video autoplay muted loop>
@@ -10,29 +12,40 @@
 
     <div class="container_home_content"">
         <div class=" container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center text-lg-start  fw-bolder display-3">Bienvenido</h1>
-                <p class="h3 text-center text-lg-start fw-bolder">Hacemos los datos <br>fáciles de usar</p>
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-12">
-                <p class="h4 text-center text-lg-start ">Ponte en contacto con un especialiasta</p>
-                <div class="d-flex justify-content-center justify-content-lg-start">
-                    <button id="btnModal" type="button" class="btn btn-outline-light rounded-0 ">
-                        Más Información
-                    </button>
+            <div class="row">
+                <div class="col-3">
+                    <!-- Se requiere para activar un mensaje cuando se envia datos desde el form -->
+                    <?php  if(isset($_SESSION['message'])) { ?>
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <?= $_SESSION['message'] ?>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    <?php session_unset(); } ?>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-lg-start  fw-bolder display-3">Bienvenido</h1>
+                    <p class="h3 text-center text-lg-start fw-bolder">Hacemos los datos <br>fáciles de usar</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <p class="h4 text-center text-lg-start ">Ponte en contacto con un especialiasta</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <button id="btnModal" type="button" class="btn btn-outline-light rounded-0 ">
+                            Más Información
+                        </button>
+                    </div>
 
-                <?php 
-                    include("includes/modal.php");
-                ?>
+                    <?php 
+                        include("includes/modal.php");
+                    ?>
 
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="bar_color"></div>
