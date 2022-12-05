@@ -98,8 +98,7 @@
 
     <!-- carrusel de contenido -->
     <article class="my-5">
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide w-75 m-auto" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -171,8 +170,8 @@
 
 
 
-    <article class="row mt-5 ">
-        <div class="row text-center">
+    <article class="row my-5 text-center">
+        <div class="row">
             <div class="col-12">
                 <h2 class="text-uppercase">Tecnologias que utilizamos</h2>
             </div>
@@ -191,12 +190,71 @@
             <img class="img-fluid" width="150px" src="img/scrum.png" alt="scrum">
         </div>
     </article>
+</section>
 
 
     <!-- historias de los clientes -->
 
+    <section class="container-fluid" style="background-color: #f3f4f5;">
+        <div class="row py-5 m-auto" style="width: 85%;">
+            <div class="col-12 col-lg-4 d-flex align-items-center">
+                <div>
+                    <p class="d-block d-md-none h4 text-center text-lg-start">
+                        Historias de clientes
+                    </p>
+                    <p class="d-block d-md-none fs-4  fw-light text-center text-lg-start">
+                        Contamos con diferentes historias de algunos de nuestros clientes
+                    </p>
+                    <p class=" fw-bold">Grupo Petersen</p>
+                    <p class="fs-6 fw-light">Grupo Petersen crea una cultura de datos con Tableau</p>
+                    <p class="fw-bold mt-5">Red Hat</p>
+                    <p class="fs-6 fw-light">Red Hat adopta el Blueprint de Tableau y Tableau Online, y 
+                        profundiza en la cultura de datos con más de 4500 empleados en menos de un año</p>
+                    <p class="fw-bold mt-5">Verizon</p>
+                    <p class="fs-6 fw-light"> 
+                        Verizon usa Tableau para reducir las llamadas de soporte en un 43 % y así 
+                        mejorar la experiencia del cliente</p>
+                    <p class="fw-bold mt-5">Whole Foods</p>
+                    <p class="fs-6 fw-light"> 
+                        Whole Foods Market democratiza el acceso a los datos en sus 460 tiendas para 
+                        18 000 empleados gracias a Tableau</p>
+                    <p class="fw-bold mt-5">Mondelez International</p>
+                    <p class="fs-6 fw-light"> 
+                        Mondelez International digitaliza la adquisición para integrar más de 160 
+                        campos de datos, 28 000 proveedores y generar millones en ahorro de costos</p>
+                    <p class="fw-bold mt-5">JPMorgan Chase</p>
+                    <p class="fs-6 fw-light"> 
+                        JPMorgan Chase elige Tableau para ofrecer análisis de autoservicio y seguir 
+                        el vertiginoso ritmo de los cambios en el sector</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <p class="d-none d-md-block h4 text-center text-lg-start">
+                    Historias de clientes
+                </p>
+                <p class="d-none d-md-block fs-4  fw-light text-center text-lg-start">
+                    Contamos con diferentes historias de algunos de nuestros clientes
+                </p>
+                <p class="d-none d-md-block mt-5 fw-bold">Solución</p>
+                <div class="d-none d-md-block w-75 h-25" 
+                style="background-image: url(./img/grupopetersenfallback.jpg);
+                        background-position: center; background-repeat: no-repeat;"></div>
+                
+               
+                <p class="d-none d-md-block mt-5 fw-bold">Visión</p>
+                <div class="d-none d-md-block w-75 h-25" 
+                style="background-image: url(./img/header_jpmc_1.jpg);
+                        background-position: center; background-repeat: no-repeat;"></div>
+            </div>
+        </div>
+    </section>
+    
 
-    <div class="row p-4">
+
+
+    <section class="container my-5">
+        
+        <div class="row p-4">
         <div class="col-12 col-lg-6">
             <p class="display-4 text-center text-lg-start">Tu futuro empieza ahora. ¿Estás Listo? </p>
         </div>
@@ -204,13 +262,14 @@
             <button type="button" class="btnModal btn btn-outline-primary rounded-0 p-3">
                 Contactanos !
             </button>
-
+            
         </div>
-
-        </article>
-
-
+        
+    </article>
 </section>
+    
+    
+    
 
 
 <?php 
