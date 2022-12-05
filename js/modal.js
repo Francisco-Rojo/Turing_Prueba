@@ -1,7 +1,6 @@
 let btn = document.getElementsByClassName("btnModal");
 
-// se utiliza un for ya que recorre todas las clases con el nombre 
-// btnmodal y asi saber cuando abrir un modal
+// se utiliza un for ya que recorre todas las clases con el nombre btnModal y asi saber cuando el modal de formulario
 for (let i = 0; i < btn.length; i++) {
   const modal = document.getElementById("myModal");
 

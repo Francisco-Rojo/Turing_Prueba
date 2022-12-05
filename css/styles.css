@@ -91,6 +91,18 @@
   .modal-body {
     padding: 2px 16px;
 }
+
+
+.contenedor_carousel {
+  position: relative; display: inline-block; text-align: center;
+}
+
+.contenedor_carousel_info {
+  padding: 50px; color:white; position: absolute; 
+                        top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+
 footer {
     background-color: #002faf;
 }
