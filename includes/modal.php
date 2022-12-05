@@ -1,5 +1,5 @@
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="myModal"  class="modal">
     <!-- Modal content -->
     <div class="modal-content">
         <div class="modal-header">
@@ -32,8 +32,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Número de Telefono*</label>
-                                    <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" 
-                                        class="form-control" name="tel" placeholder="555-55-5555" required>
+                                    <input type="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" 
+                                        class="form-control" name="tel" placeholder="55-55-55-55" required>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Puesto</label>

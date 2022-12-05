@@ -33,7 +33,7 @@
                 <div class="col-12">
                     <p class="h4 text-center text-lg-start ">Ponte en contacto con un especialiasta</p>
                     <div class="d-flex justify-content-center justify-content-lg-start">
-                        <button id="btnModal" type="button" class="btn btn-outline-light rounded-0 ">
+                        <button  class="btnModal btn btn-outline-light rounded-0 ">
                             Más Información
                         </button>
                     </div>
@@ -90,6 +90,20 @@
         </div>
         <div class="col-12 col-lg-3">
             <img class="img-fluid" width="150px" src="img/scrum.png" alt="scrum">
+        </div>
+    </article>
+
+    <article class="container">
+        <div class="row p-4">
+            <div class="col-12 col-lg-6">
+                <p class="display-4">Tu futuro empieza ahora. ¿Estás Listo? </p>
+            </div>
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                <button  type="button" class="btnModal btn btn-outline-primary rounded-0 p-3">
+                    Contactanos !
+                </button>
+               
+            </div>
         </div>
     </article>
 
