@@ -6,7 +6,7 @@
 <div class="container_home">
     <div class="container_video">
         <video autoplay muted loop>
-            <source src="./videos/Index.m4v" type="video/mp4">
+            <source  src="./videos/Index.m4v" type="video/mp4">
         </video>
     </div>
 
@@ -48,10 +48,8 @@
 </div>
 </div>
 
-<div class="bar_color"></div>
-
 <div class="container-fluid">
-    <img width="100%" src="./img/color-bar-w-blue-3010x50.png" alt="bar-color">
+    <img class="w-100" src="./img/color-bar-w-blue-3010x50.png" alt="bar-color">
 </div>
 
 <section class="container mt-5">
