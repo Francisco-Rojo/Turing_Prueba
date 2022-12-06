@@ -37,3 +37,11 @@
 <div class="container-fluid">
     <img class="w-100" src="./img/color-bar-w-blue-3010x50.png" alt="bar-color">
 </div>
+
+
+
+
+
+<?php 
+    include("includes/footer.php");
+?>
